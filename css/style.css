@@ -244,7 +244,7 @@ header .navbar ul li a:hover{
     
 }
 .about .row .counter .box{
-    width: 22rem;
+    width: 18rem;
     background: #222;
     text-align: center;
     padding: 2rem;
@@ -252,11 +252,11 @@ header .navbar ul li a:hover{
 
 }
 .about .row .counter .box span{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--yellow);
 }
 .about .row .counter .box h3{
-    font-size: 4rem;
+    font-size: 2rem;
     color: #fff;
 }
 .education .box-container{
@@ -268,7 +268,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 .education .box-container .box{
-    width: 27rem;
+    width: 25rem;
     margin: 1rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
@@ -282,12 +282,12 @@ header .navbar ul li a:hover{
     padding: 1rem 2.5rem;
 }
 .education .box-container .box h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     padding-top: 1.5rem;
 }
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #eee;
     padding: 1rem 0;
 }
