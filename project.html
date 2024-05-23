@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .navbar {
+                background-color: #24292e; /* Background color */
+                padding: 15px 0; /* Padding for top and bottom */
+                text-align: center; /* Aligning text to center */
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow */
+                
+            }
+
+            .navbar ul {
+                list-style-type: none; /* Remove bullet points */
+                margin: 0;
+                padding: 0;
+            }
+
+            .navbar ul li {
+                display: inline-block;
+                padding: 0 40px; /* Displaying list items inline */
+            }
+
+            .navbar ul li a {
+                color: #fff; /* Text color */
+                text-decoration: none; /* Remove underline */
+                font-size: 20px; /* Font size */
+                font-weight: bold; /* Font weight */
+                padding: 10px 20px; /* Padding for each link */
+                transition: background-color 0.3s; /* Smooth background color transition */
+            }
+
+            .navbar ul li a:hover {
+                background-color: #4a4e52; /* Change background color on hover */
+                border-radius: 5px;
+                color: bisque; /* Adding border radius */
+            }
+
+            .navbar ul li:last-child a {
+                margin-right: 0; /* Remove margin from the last list item */
+            }
+            .portfolio .box-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 2rem 0;
+            }
+            .hadding {
+                
+                top: 0;
+                text-align: center;
+                
+                font-size: 4rem;
+                padding: 1rem;
+                border-bottom: .1rem solid #fff4;
+                color: #fff;
+                background-color: #222;
+                /* border-radius: 15px; */
+                box-shadow: 10px;
+                
+                
+                /* text-align: center;
+                position: fixed;
+                left: 0;
+                right: 0;
+                color: #fff;
+                background-color: #222;
+                font-size: 3rem; */
+                
+                
+                
+                
+            }
+            .hadding span {
+                color: rgb(190, 190, 67);
+            }
+            .box-container{
+                background-color: #4a4e52;
+                
+            }
+            
+            .portfolio .box-container .box{
+                height: 20rem;
+                width: 26rem;
+                border-radius: 1rem;
+                margin: 2rem;
+                overflow: hidden;
+                cursor: pointer;
+                
+            }
+            .portfolio .box-container .box span{
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+            .portfolio .box-container .box img{
+                height: 100%;
+                width: 100%;
+                object-fit:fill;
+            }
+            .portfolio .box-container .box:hover img{
+                transform: scale(1.2);
+            }
+            /* .home{
+                width: 100px;
+                height: 30px;
+                background-color: rgb(188, 56, 56);
+                color: white;
+                border: 2px solid burlywood;
+                padding: 10px;
+                text-align: center;
+                font-size: 20px;
+                text-decoration:none;
+                cursor: pointer;
+                border-radius: 30px;
+                float: right;
+                
+            }
+            .home:hover{
+                background-color: #222;
+                color: #fff;
+                font-size: 30px;
+            } */
+       
+
+         
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <!-- <div class="user">
+            <img src="img/rohit.png">
+            <h3 class="name">ROHIT KUMAR</h3>
+            <p class="post">Web Developer</p>
+        </div> -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/rohit-kumar-127504236">LinkedIn</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <section class="portfolio" id="portfolio">
+        <h1 class="hadding">My <span>Projects</span></h1>
+        <br>
+        <br>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/toyshop/"><img src="img/toyshop.png"></a>
+                
+            </div>
+            
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/FashionHub-/"><img src="img/faishon.png"></a>
+            </div>
+           
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Weather-Application/"><img src="img/weatherapp.png"></a>
+            </div>
+            
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Meme_generator/"><img src="img/meme.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Login_and_Register/"><img src="img/logandRe.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Tic-Tac-Toe/"><img src="img/tic toc toe.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Typing-Test/"><img src="img/Typingtest.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/CryptoCurrency-Website/"><img src="img/CryptoWeb.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/NotesApplication/"><img src="img/NotesApp.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Text-To-Speech-Converter/"><img src="img/TextToSpeech.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Rock-Paper-Scissors/"><img src="img/RPS.png"></a>
+            </div>
+            <div class="box">
+                <a href="https://rohitkumarrazz.github.io/Dewller/"><img src="img/Deweller.png"></a>
+            </div>
+            
+            
+            
+        <!-- </div>
+        <a class="home" href="index.html">Home</a> -->
+       
+    
+    </section>
+</body>
+</html>
